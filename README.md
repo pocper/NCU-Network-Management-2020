@@ -61,9 +61,9 @@
    2. open the website  
    http://localhost:8000/1083030132_1.html
       - Input  
-       <img src="./final_exam/result/ex2_1.png" alt="booking_input" width="100%">  
+         <img src="./final_exam/result/ex2_1.png" alt="booking_input" width="100%">
       - Output  
-       <img src="./final_exam/result/ex2_3.png" alt="booking_output" width="50%">  
+         <img src="./final_exam/result/ex2_3.png" alt="booking_output" width="50%">
 
 
 2. 題目:使用者輸入兩個不同的年月，可以計算出相差多少個月份
@@ -75,16 +75,17 @@
    2. open the website  
    http://localhost:8000/1083030133_1.html
       - Input  
-       <img src="./final_exam/result/ex3_1.png" alt="calculate_difference_month_input" width="100%">  
+         <img src="./final_exam/result/ex3_1.png" alt="calculate_difference_month_input" width="100%">
       - Output  
-       <img src="./final_exam/result/ex3_2.png" alt="calculate_difference_month_output" width="10%">  
+         <img src="./final_exam/result/ex3_2.png" alt="calculate_difference_month_output" width="10%">
 
 ## 期末專題(html/css/javascript/php/AWS database)
 **題目:**  
 設計至少三個不同的網頁且含有後端與資料庫互動的網站  
 <br>
 **網頁介紹:**  
-本網站以遊戲為主題，內容涵蓋經典的「貪吃蛇」以及「瘋狂魔塔」兩款遊戲。
+本網站以遊戲為主題，內容涵蓋經典的「貪吃蛇」以及「瘋狂魔塔」兩款遊戲。<br>
+Notice:資料庫已關閉，目前無法與資料庫互動
 - **貪吃蛇故事背景：**  
   貪吃蛇是一款經典的休閒遊戲，玩家控制一條不斷成長的蛇，在有限的空間內吃食物並避免撞牆或咬到自己。遊戲簡單卻極具挑戰性，考驗玩家的反應速度與策略規劃能力。
 
