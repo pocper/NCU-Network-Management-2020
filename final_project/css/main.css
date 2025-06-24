@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "LiGothic", "Microsoft JhengHei", Arial, sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+    /* scroll-snap-type: y mandatory; */
+}
+
+.intro {
+    background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+
+.intro-box {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-box {
+    position: relative;
+    top: -3vh;
+    left: 10vw;
+}
+
+.logo-txt {
+    position: relative;
+    top: 2vh;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.txt-box {
+    position: relative;
+    white-space: nowrap;
+    margin: auto;
+    left: 3vw;
+}
+
+.txt-box div {
+    padding: 0 2vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height: 10vh;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    height: 5vh;
+    background-color: black;
+}
+
+header div {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0 1vw;
+}
+
+header div:first-child {
+    margin-right: 3vw;
+}
+
+.Content {
+    height: 90vh;
+    background-color: wheat;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.header-btn {
+    width: 150px;
+    height: 5vh;
+    font-size: 20px;
+}
+
+.header-btn:hover {
+    background-color: orange;
+}
+
+.search-box {
+    position: relative;
+    top: 2.5vh;
+    left: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 1vh;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5vh;
+}
+
+.search-txt {
+    position: relative;
+    margin-left: 0.5vw;
+    width: 12vw;
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    line-height: 5vh;
+}
+
+.search-btn {
+    margin-left: -0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: skyblue;
+    width: 5vh;
+    height: 5vh;
+}
+
+.G-txt {
+    position: relative;
+    top: -1vh;
+    margin: auto;
+    width: 100%;
+    height: 84vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.G-txt i, .G-txt img {
+    position: relative;
+    font-size: 100px;
+    width: 100px;
+    margin-top: 20%;
+}
+
+.G-txt1 {
+    width: 30vw;
+    height: 100%;
+    margin: 0 15vh;
+}
+
+.G-txt2 {
+    position: relative;
+    top: 5vh;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 0.5vw black solid;
+    width: 100%;
+    height: 80%;
+}
+
+.G-txt h1 {
+    position: relative;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+    font-size: 3vw;
+    font-weight: bold;
+    height: 8vh;
+}
+
+.G-txt p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    height: 25%;
+    font-size: 1.5vw;
+    line-height: 30px;
+}
+
+.G-txt button{
+    position: relative;
+    top: 5vh;
+    width: 31vw;
+    height: 6vh;
+    border: 5px black solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+}
+
+.G-txt button:hover {
+    border: 5px green solid;
+    background-color: green;
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+}

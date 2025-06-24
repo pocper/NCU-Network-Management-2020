@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        snake
+    </title>
+    <script>
+        let ax = ay = 10
+        let sx = sy = 15
+        let vx = vy = 0
+        let trail = []
+        let lengthSnake = 3
+        const winWidth = winHeight = 400
+        const grid = 20
+
+        window.onload = function () {
+            c = document.getElementById('gc')
+            ctx = c.getContext('2d')
+            document.addEventListener("keydown", control)
+            setInterval(game, 1000 / 15)
+        }
+
+        function game() {
+
+            sx += vx
+            sy += vy
+
+            ctx.fillStyle = "black";
+            ctx.fillRect(0, 0, winWidth, winHeight);
+
+            ctx.fillStyle = "lime";
+            for (let i = 0; i < trail.length; i++) {
+                ctx.fillRect(trail[i].x * grid, trail[i].y * grid, grid - 2, grid - 2);
+                if (trail[i].x == sx && trail[i].y == sy) {
+                    lengthSnake = 3
+                }
+            }
+
+            ctx.fillStyle = "red";
+            ctx.fillRect(ax * grid, ay * grid, grid - 2, grid - 2);
+
+            trail.push({ x: sx, y: sy })
+
+            while (trail.length > lengthSnake) {
+                trail.shift()
+            }
+
+            if (sx == ax && sy == ay) {
+                lengthSnake++
+                ax = Math.floor(Math.random() * grid)
+                ay = Math.floor(Math.random() * grid)
+            }
+
+
+        }
+
+        function control(e) {
+            switch (e.keyCode) {
+                case 37:
+                    vx = -1
+                    vy = 0
+                    break
+                case 38:
+                    vx = 0
+                    vy = -1
+                    break
+                case 39:
+                    vx = 1
+                    vy = 0
+                    break
+                case 40:
+                    vx = 0
+                    vy = 1
+                    break
+            }
+        }
+    </script>
+    <style>
+        body {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -200px;
+            margin-left: -200px;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="gc" width="400" height="400"></canvas>
+</body>
+
+</html>
