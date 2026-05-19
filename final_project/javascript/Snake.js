@@ -100,7 +100,7 @@ function Page(name) {
         window.location.href = '/AboutUs/AboutUs.html'
     }
     else if (name == 'Tower') {
-        window.location.href = '/Tower/Tower.php'
+        window.location.href = '/Tower/Tower.html'
     }
     else if (name == 'Snake') {
         window.location.href = '/Snake/Snake.html'
