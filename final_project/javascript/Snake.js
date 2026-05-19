@@ -94,15 +94,15 @@ function control(e) {
 
 function Page(name) {
     if (name == 'Home') {
-        window.location.href = '/main.html'
+        window.location.href = './index.html'
     }
     else if (name == 'AboutUs') {
-        window.location.href = '/AboutUs/AboutUs.html'
+        window.location.href = './AboutUs/AboutUs.html'
     }
     else if (name == 'Tower') {
-        window.location.href = '/Tower/Tower.html'
+        window.location.href = './Tower/Tower.html'
     }
     else if (name == 'Snake') {
-        window.location.href = '/Snake/Snake.html'
+        window.location.href = './Snake/Snake.html'
     }
 }
