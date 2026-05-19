@@ -10,7 +10,13 @@ function Key(e) {
 }
 function Page(name) {
     if (name == 'Home') {
-        window.location.href = './index.html'
+        if (window.location.pathname.includes('/Tower/') || 
+            window.location.pathname.includes('/AboutUs/') || 
+            window.location.pathname.includes('/Snake/')) {
+            window.location.href = '../index.html';
+        } else {
+            window.location.href = './index.html';
+        }
     }
     else if (name == 'AboutUs') {
         window.location.href = './AboutUs/AboutUs.html'
