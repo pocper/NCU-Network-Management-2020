@@ -89,10 +89,10 @@
 
 **成員及工作內容:**  
 
-| <nobr>成員</nobr>     | 工作內容                                         |
+| <span style="display:inline-block; min-width:80px;">成員</span>  | 工作內容                                         |
 |--------- |-------------------------------------------------|
-| <nobr>黃鉦淳</nobr>   | 主頁:HTML、CSS、JavaScript 編寫<br>關於我們:HTML、CSS、JavaScript 編寫<br>遊戲_貪吃蛇:HTML、CSS、JavaScript 編寫<br>遊戲_瘋狂魔塔:HTML、CSS、JavaScript (遊戲關卡設計 / 角色互動機制 / 角色碰撞機制 / 美術及素材製作) |
-| <nobr>郭耀中</nobr>   | 瘋狂魔塔:php(進度保存至資料庫的後端開發與資料庫設計) |
+| 黃鉦淳   | 主頁:HTML、CSS、JavaScript 編寫<br>關於我們:HTML、CSS、JavaScript 編寫<br>遊戲_貪吃蛇:HTML、CSS、JavaScript 編寫<br>遊戲_瘋狂魔塔:HTML、CSS、JavaScript (遊戲關卡設計 / 角色互動機制 / 角色碰撞機制 / 美術及素材製作) |
+| 郭耀中   | 瘋狂魔塔:php(進度保存至資料庫的後端開發與資料庫設計) |
 
 <details>
 <summary>點擊展開：查看結果畫面截圖</summary>
